@@ -1,0 +1,45 @@
+.about {
+  background: #f8f8f8;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  border-radius: 12px;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  color: #ff9800;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.about-content p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.about-content button {
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.about-content button:hover {
+  background: #e68900;
+}

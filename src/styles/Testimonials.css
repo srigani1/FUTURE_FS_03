@@ -1,0 +1,21 @@
+.testimonials {
+  background: #f7f7f7;
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 20px;
+}
+
+.review-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.review-card h3 {
+  color: #ff9800;
+  margin-bottom: 10px;
+}

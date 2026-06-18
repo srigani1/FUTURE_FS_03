@@ -1,0 +1,23 @@
+.specials {
+  background: #fff8f0;
+}
+
+.specials-content {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.special-card {
+  flex: 1;
+  min-width: 250px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.special-card h3 {
+  color: #ff9800;
+  margin-bottom: 15px;
+}
